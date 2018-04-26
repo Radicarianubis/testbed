@@ -1,5 +1,5 @@
-def total(initial=5, *numbers, **keywords):
-    count = initial
+def total(*numbers, **keywords):
+    count = 0
     for number in numbers:
         count += number
     for key in keywords:
